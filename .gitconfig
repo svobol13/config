@@ -7,9 +7,9 @@
 	f = fetch
 	# updates your branch with upstream (if fast-forward is possible)
 	ff = !git merge --ff-only `git rev-parse --symbolic-full-name --abbrev-ref=strict HEAD@{u}`
-	fa = git fetch --all
+	fa = fetch --all
 	fp = fetch --prune
-	fap = git fetch --all --prune
+	fap = fetch --all --prune
 	st = status
 	cm = commit
 	cma = commit --amend
