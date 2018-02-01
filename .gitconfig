@@ -10,6 +10,7 @@
 	fa = fetch --all
 	fp = fetch --prune
 	fap = fetch --all --prune
+	rbom = rebase origin/master
 	st = status
 	cm = commit
 	cma = commit --amend
