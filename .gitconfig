@@ -7,6 +7,7 @@
 	f = fetch
 	# updates your branch with upstream (if fast-forward is possible)
 	ff = !git merge --ff-only `git rev-parse --symbolic-full-name --abbrev-ref=strict HEAD@{u}`
+	gui = !~/git/git-gui/git-gui.sh citool
 	fa = fetch --all
 	fp = fetch --prune
 	fap = fetch --all --prune
@@ -17,6 +18,9 @@
 	br = branch
 	co = checkout
 	cp = cherry-pick
+	siu = stash --include-untracked
+	sl = stash list
+	sp = stash pop
 	df = diff
 	rb = rebase
 	rbi = rebase -i
